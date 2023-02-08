@@ -9,7 +9,7 @@ include_once('../conn.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HR</title>
+    <title>产品</title>
 
     <?php 
     include_once('css.php'); 
@@ -39,12 +39,12 @@ include_once('../conn.php');
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Product</h1>
+                            <h1 class="m-0">产品</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Product</a></li>
-                                <li class="breadcrumb-item active">ระบบการผลิต</li>
+                                <li class="breadcrumb-item"><a href="#">产品</a></li>
+                                <li class="breadcrumb-item active">产品</li>
                             </ol>
                         </div>
                     </div>

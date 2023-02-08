@@ -13,30 +13,32 @@
             <a href="<?php echo PATH; ?>/purchase" class="nav-link">购买</a><!-- / -->
         </li>
         <li class="nav-item d-sm-inline-block">
-            <a href="<?php echo PATH; ?>/hr" class="nav-link">HR</a><!-- / -->
+            <a href="<?php echo PATH; ?>/hr" class="nav-link">人力资源</a><!-- / -->
         </li>
 
         <li class="nav-item d-sm-inline-block">
-            <a href="<?php echo PATH; ?>/sales" class="nav-link">Sales</a>
+            <a href="<?php echo PATH; ?>/sales" class="nav-link">销售</a>
         </li>
         <li class="nav-item d-sm-inline-block">
-            <a href="<?php echo PATH; ?>/product" class="nav-link">Product</a><!-- / -->
+            <a href="<?php echo PATH; ?>/product" class="nav-link">产品</a><!-- / -->
         </li>
         <li class="nav-item d-sm-inline-block">
-            <a href="<?php echo PATH; ?>/planner" class="nav-link">Planner</a> <!-- / -->
+            <a href="<?php echo PATH; ?>/planner" class="nav-link">规划师
+</a> <!-- / -->
         </li>
         <li class="nav-item d-sm-inline-block">
-            <a href="<?php echo PATH; ?>/engineer" class="nav-link">Engineer</a>
+            <a href="<?php echo PATH; ?>/engineer" class="nav-link">工程师
+</a>
         </li>
-        <li class="nav-item d-sm-inline-block">
+        <!-- <li class="nav-item d-sm-inline-block">
             <a href="<?php echo PATH; ?>/qc" class="nav-link">QC</a>
-        </li>
+        </li> -->
         <li class="nav-item d-sm-inline-block">
-            <a href="<?php echo PATH; ?>/warehouse" class="nav-link">Warehouse</a>
+            <a href="<?php echo PATH; ?>/warehouse" class="nav-link">仓库</a>
         </li>
-        <li class="nav-item d-sm-inline-block">
+        <!-- <li class="nav-item d-sm-inline-block">
             <a href="<?php echo PATH; ?>/account" class="nav-link">Account</a>
-        </li>
+        </li> -->
         
     </ul>
 

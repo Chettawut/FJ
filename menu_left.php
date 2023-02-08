@@ -27,7 +27,7 @@
                     <a href="<?php echo PATH; ?>/store/rr" class="nav-link">
                         <i class="nav-icon fa fa-truck-loading"></i>
                         <p>
-                            ใบรับสินค้า (Goods Receipt)
+                        收货入仓库 (Goods Receipt)
                         </p>
                     </a>
                 </li>
@@ -35,7 +35,7 @@
                     <a href="<?php echo PATH; ?>/store/wd" class="nav-link">
                         <i class="nav-icon fas fa-light fa-cubes"></i>
                         <p>
-                            ใบเบิกสินค้า (Goods Issued)
+                        支付货款 (Goods Issued)
                         </p>
                     </a>
                 </li>
@@ -44,7 +44,7 @@
                     <a href="<?php echo PATH; ?>/store/inventory" class="nav-link">
                         <i class="nav-icon fa fa-cube"></i>
                         <p>
-                            วัสดุพื้นฐาน (Inventory)
+                        库存 (Inventory)
                         </p>
                     </a>
                 </li>

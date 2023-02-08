@@ -7,7 +7,7 @@ include_once('../../conn.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ใบสั่งขาย (Sales Order) </title>
+    <title>销售订单 (Sales Order) </title>
 
     <?php 
     include_once('css.php'); 
@@ -37,7 +37,7 @@ include_once('../../conn.php');
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0"><i class="fa fa-cart-plus"></i> ใบสั่งขาย (Sales Order)</h1>
+                            <h1 class="m-0"><i class="fa fa-cart-plus"></i> 销售订单 (Sales Order)</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
@@ -58,9 +58,10 @@ include_once('../../conn.php');
 
                                         <button type="button" id="btnAddSO" data-toggle="modal" data-target="#modal_add"  class="btn btn-success"><i class="fa fa fa-tags"
                                                 aria-hidden="true"></i>
-                                            เพิ่มใบสั่งขาย</button>
+                                                添加销售订单
+</button>
                                     <button type="button" id="btnRefresh" class="btn btn-primary"><i
-                                            class="fas fa-sync-alt" aria-hidden="true"></i> Refresh</button>
+                                            class="fas fa-sync-alt" aria-hidden="true"></i> 刷新</button>
 
                                     <input type="hidden" id="printsocode" class="btn btn-default" name="printsocode"
                                         value="John">

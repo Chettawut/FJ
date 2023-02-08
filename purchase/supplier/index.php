@@ -8,7 +8,7 @@ include_once('../../conn.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ผู้ขาย</title>
+    <title>供应商</title>
 
     <?php 
     include_once('css.php'); 
@@ -38,12 +38,12 @@ include_once('../../conn.php');
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0"><i class="nav-icon fas fa fa-shopping-cart"></i> ผู้ขาย (Supplier)</h1>
+                            <h1 class="m-0"><i class="nav-icon fas fa fa-shopping-cart"></i> 供应商 (Supplier)</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="<?php echo PATH; ?>/purchase">Purchase</a></li>
-                                <li class="breadcrumb-item active">Supplier</li>
+                                <li class="breadcrumb-item active">供应商</li>
                             </ol>
                         </div>
                     </div>
@@ -59,9 +59,10 @@ include_once('../../conn.php');
                                     <div class="btn-group" id="btnAddSO" role="group" aria-label="Basic example">
                                         <button type="button" class="btn btn-success" data-toggle="modal"
                                             data-target="#modal_add"><i class="fa fa fa-tags" aria-hidden="true"></i>
-                                            เพิ่มผู้ขาย</button>
+                                            添加供应商
+</button>
                                         <button type="button" id="btnRefresh" class="btn btn-primary"><i
-                                                class="fas fa-sync-alt" aria-hidden="true"></i> Refresh</button>
+                                                class="fas fa-sync-alt" aria-hidden="true"></i> 刷新</button>
                                     </div>
                                     <div class="btn-group" id="btnBack" style="display:none;" role="group"
                                         aria-label="Basic example">

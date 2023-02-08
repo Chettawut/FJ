@@ -7,7 +7,7 @@ include_once('../../conn.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ใบสั่งซื้อ (Purchase Order)</title>
+    <title>采购订单 (Purchase Order)</title>
 
     <?php 
     include_once('css.php'); 
@@ -37,12 +37,12 @@ include_once('../../conn.php');
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0"> <i class="nav-icon fas fa-light fa-book"></i> ใบสั่งซื้อ (Purchase Order)</h1>
+                            <h1 class="m-0"> <i class="nav-icon fas fa-light fa-book"></i> 采购订单 (Purchase Order)</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Purchase</a></li>
-                                <li class="breadcrumb-item active">Purchase Order</li>
+                                <li class="breadcrumb-item"><a href="#">采购订单</a></li>
+                                <li class="breadcrumb-item active">采购订单</li>
                             </ol>
                         </div>
                     </div>
@@ -59,7 +59,8 @@ include_once('../../conn.php');
                                     <div class="btn-group" id="btnAddSO" role="group" aria-label="Basic example">
                                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal_add"><i class="fa fa fa-tags"
                                                 aria-hidden="true"></i>
-                                            เพิ่มใบสั่งซื้อ</button>
+                                                添加采购订单
+</button>
                                     </div>
                                     <div class="btn-group" id="btnBack" style="display:none;" role="group"
                                         aria-label="Basic example">
@@ -68,7 +69,7 @@ include_once('../../conn.php');
                                             ย้อนกลับ</button>
                                     </div>
                                     <button type="button" id="btnRefresh" class="btn btn-primary"><i
-                                            class="fas fa-sync-alt" aria-hidden="true"></i> Refresh</button>
+                                            class="fas fa-sync-alt" aria-hidden="true"></i> 刷新</button>
                                     <button type="button" id="btnCancle" style="display:none;" class="btn btn-danger"><i
                                             class="fa fa-check-circle" aria-hidden="true"></i>
                                         ยกเลิกใบสั่งขาย</button>
