@@ -7,7 +7,7 @@ include_once('../../conn.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>发 票 (Invoice) </title>
+    <title>销售订单批准 (Sales Order Approve) </title>
 
     <?php 
     include_once('css.php'); 
@@ -37,12 +37,12 @@ include_once('../../conn.php');
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0"><i class="nav-icon fas fa-file-invoice-dollar"></i> 发 票 (Invoice)</h1>
+                            <h1 class="m-0"><i class="fa fa-check"></i> 销售订单批准 (Sales Order Approval)</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="<?php echo PATH; ?>/account">Account</a></li>
-                                <li class="breadcrumb-item active">Invoice</li>
+                                <li class="breadcrumb-item"><a href="<?php echo PATH; ?>/sales">Sales</a></li>
+                                <li class="breadcrumb-item active">Sales Order Approval</li>
                             </ol>
                         </div>
                     </div>
@@ -58,10 +58,9 @@ include_once('../../conn.php');
 
                                         <!-- <button type="button" id="btnAddSO" data-toggle="modal" data-target="#modal_add"  class="btn btn-success"><i class="fa fa fa-tags"
                                                 aria-hidden="true"></i>
-                                                添加销售订单 -->
-</button>
+                                            เพิ่มใบสั่งขาย</button> -->
                                     <button type="button" id="btnRefresh" class="btn btn-primary"><i
-                                            class="fas fa-sync-alt" aria-hidden="true"></i> 刷新</button>
+                                            class="fas fa-sync-alt" aria-hidden="true"></i> Refresh</button>
 
                                     <input type="hidden" id="printsocode" class="btn btn-default" name="printsocode"
                                         value="John">
@@ -77,9 +76,10 @@ include_once('../../conn.php');
                                         <th width="10%">SO No.</th>
                                         <th width="10%">SO Date</th>
                                         <th width="10%">FG Code</th>
-                                        <th width="25%">FG Name</th>
+                                        <th width="20%">FG Name</th>
                                         <th width="25%">Cusname</th>
                                         <th width="10%">Status</th>
+                                        <th width="10%"></th>
                                     </tr>
                                 </thead>
                                 <tbody>

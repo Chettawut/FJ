@@ -10,7 +10,7 @@ include_once('../../conn.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>จัดการเวลาทำงาน (Time attendance)</title>
+    <title>考勤系统 (Time attendance)</title>
 
     <?php 
     include_once('css.php'); 
@@ -39,11 +39,11 @@ include_once('../../conn.php');
             <section class="content">
                 <section class="content-header">
 
-                    <H1 id="menuName" style="margin-down:50px;"><i class="nav-icon fas fa-clock"></i> จัดการเวลาทำงาน (Time attendance)</H1>
+                    <H1 style="margin-bottom:50px;"><i class="nav-icon fas fa-clock"></i><span id="menuName" > 考勤系统 (Time attendance)<span></H1>
 
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Person</a></li>
-                        <li class="breadcrumb-item active">Time attendance</li>
+                        <li class="breadcrumb-item"><a href="#">人力资源</a></li>
+                        <li class="breadcrumb-item active">考勤系统</li>
                     </ol>
                 </section>
                 <section class="content panel-info" style="padding:20px;">

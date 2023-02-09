@@ -33,12 +33,12 @@
         <!-- <li class="nav-item d-sm-inline-block">
             <a href="<?php echo PATH; ?>/qc" class="nav-link">QC</a>
         </li> -->
-        <li class="nav-item d-sm-inline-block">
-            <a href="<?php echo PATH; ?>/warehouse" class="nav-link">仓库</a>
-        </li>
         <!-- <li class="nav-item d-sm-inline-block">
-            <a href="<?php echo PATH; ?>/account" class="nav-link">Account</a>
+            <a href="<?php echo PATH; ?>/warehouse" class="nav-link">仓库</a>
         </li> -->
+        <li class="nav-item d-sm-inline-block">
+            <a href="<?php echo PATH; ?>/account" class="nav-link">会计</a>
+        </li>
         
     </ul>
 

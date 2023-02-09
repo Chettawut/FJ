@@ -554,7 +554,7 @@ function getSO() {
 
 
                 if (result.supstatus[count] == '01') {
-                    supstatus = '待办的'
+                    supstatus = '等待批准'
                     suptitle = 'รออนุมัติขาย'
                 } else if (result.supstatus[count] == '02') {
                     supstatus = 'รอออกใบกำกับภาษี'
@@ -585,7 +585,10 @@ function getSO() {
                     '</td><td>' + sodate + '</td><td>' + result
                     .stcode[count] + '</td><td>' + result.stname1[count] + '</td><td>' + result
                     .cusname[count] + '</td><td><span title="' + suptitle + '">' + supstatus +
-                    '</span></td></tr>');
+                    '</span></td><td><button type="button" onClick="onApprove(\'' +
+                    result.socode[
+                        count] +
+                    '\')"; class="btn btn-success form-control" ><i class="fa fa fa-check" aria-hidden="true"></i> 批准</button></td></tr>');
             }
 
             var table = $('#tableSO').DataTable({

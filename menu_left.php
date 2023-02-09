@@ -32,10 +32,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?php echo PATH; ?>/store/wd" class="nav-link">
-                        <i class="nav-icon fas fa-light fa-cubes"></i>
+                    <a href="<?php echo PATH; ?>/store/shipment" class="nav-link">
+                        <i class="nav-icon fas fa-truck"></i>
                         <p>
-                        支付货款 (Goods Issued)
+                        装船 (Shipment)
                         </p>
                     </a>
                 </li>
@@ -52,7 +52,7 @@
                     <a href="<?php echo PATH; ?>/store/unit" class="nav-link">
                         <i class="nav-icon 	fa fa-tag"></i>
                         <p>
-                            หน่วยวัสดุ (Unit)
+                        单元 (Unit)
                         </p>
                     </a>
                 </li>
@@ -60,15 +60,7 @@
                     <a href="<?php echo PATH; ?>/store/warehouse" class="nav-link">
                         <i class="nav-icon fas fa-warehouse"></i>
                         <p>
-                            คลังสินค้า (Warehouse)
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="<?php echo PATH; ?>/store/project" class="nav-link">
-                        <i class="nav-icon fas fa-clipboard-check"></i>
-                        <p>
-                            Cost Project
+                        仓库 (Warehouse)
                         </p>
                     </a>
                 </li>
@@ -76,7 +68,7 @@
                     <a href="<?php echo PATH; ?>/store/reports" class="nav-link">
                         <i class="nav-icon 	fa fa-book"></i>
                         <p>
-                            รายงาน (Reports)
+                        报告 (Reports)
                         </p>
                     </a>
                 </li>
@@ -108,7 +100,7 @@
                     <a href="<?php echo PATH; ?>/purchase/po" class="nav-link">
                         <i class="nav-icon fas fa-light fa-book"></i>
                         <p>
-                            ใบสั่งซื้อ (PO)
+                        采购订单 (PO)
                         </p>
                     </a>
                 </li>
@@ -133,7 +125,7 @@
                     <a href="<?php echo PATH; ?>/hr/time" class="nav-link">
                         <i class="nav-icon fas fa-clock"></i>
                         <p>
-                            จัดการเวลาทำงาน (Time attendance)
+                        考勤系统 (Time attendance)
                         </p>
                     </a>
                 </li>
@@ -141,7 +133,7 @@
                     <a href="<?php echo PATH; ?>/hr/payroll" class="nav-link">
                         <i class="nav-icon fas fa-money-check-alt"></i>
                         <p>
-                            ระบบบัญชีเงินเดือน (PayRoll)
+                        工资单 (PayRoll)
                         </p>
                     </a>
                 </li>
@@ -166,6 +158,14 @@
                         <i class="nav-icon fas fa-clipboard"></i>
                         <p>
                             เปิดใบสั่งขาย (Sale Order)
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="<?php echo PATH; ?>/sales/so_approve" class="nav-link">
+                        <i class="nav-icon fas fa-check"></i>
+                        <p>
+                        销售订单批准 (Sale Order Approval)
                         </p>
                     </a>
                 </li>
@@ -295,7 +295,7 @@
                     <a href="<?php echo PATH; ?>/warehouse/shipment" class="nav-link">
                         <i class="nav-icon fas fa-truck"></i>
                         <p>
-                            การส่งสินค้า (Shipment)
+                        装船 (Shipment)
                         </p>
                     </a>
                 </li>
@@ -309,7 +309,7 @@
                     <a href="<?php echo PATH; ?>/account/invoice" class="nav-link">
                         <i class="nav-icon fas fa-file-invoice-dollar"></i>
                         <p>
-                            ออกใบกำกับภาษี (Invoice)
+                        发 票 (Invoice)
                         </p>
                     </a>
                 </li>

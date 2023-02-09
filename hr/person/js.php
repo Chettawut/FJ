@@ -196,7 +196,7 @@ function onclickEditEmployee(empcode) {
     $("#btnSubmit").hide();
     $("#btnEdit").show();
     $("#btnMenu").show();
-    $("#menuName").text('Human Resources (HR) แก้ไขพนักงาน');
+    $("#menuName").text(' 个人信息 (Personal Information)');
 
     $.ajax({
         type: "POST",

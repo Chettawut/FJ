@@ -10,7 +10,7 @@ include_once('../../conn.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>บัญชีเงินเดือน (PayRoll)</title>
+    <title>工资单 (PayRoll)</title>
 
     <?php 
     include_once('css.php'); 
@@ -40,12 +40,12 @@ include_once('../../conn.php');
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0"><i class="nav-icon fas fa-money-check-alt"></i> รายงานเงินเดือน/ค่าจ้าง (Payroll Period)</h1>
+                            <h1 class="m-0"><i class="nav-icon fas fa-money-check-alt"></i> 薪水期 (Payroll Period)</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">HR</a></li>
-                                <li class="breadcrumb-item active">Payroll Period</li>
+                                <li class="breadcrumb-item"><a href="#">人事/人力资源部</a></li>
+                                <li class="breadcrumb-item active">薪水期</li>
                             </ol>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ include_once('../../conn.php');
                                     <div class="btn-group" id="btnAddSO" role="group" aria-label="Basic example">
                                         <button type="button" class="btn btn-success" data-toggle="modal"
                                             data-target="#modal_add"><i class="fa fa fa-tags" aria-hidden="true"></i>
-                                            สร้าง PP</button>
+                                            创造 PP</button>
                                         <button type="button" id="btnRefresh" class="btn btn-primary"><i
                                                 class="fas fa-sync-alt" aria-hidden="true"></i> Refresh</button>
                                     </div>
@@ -83,15 +83,15 @@ include_once('../../conn.php');
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab"
-                                aria-controls="all" aria-selected="true">ทั้งหมด</a>
+                                aria-controls="all" aria-selected="true">全部</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="month-tab" data-toggle="tab" href="#month" role="tab"
-                                aria-controls="month" aria-selected="false">เงินเดือน</a>
+                                aria-controls="month" aria-selected="false">薪水</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="day-tab" data-toggle="tab" href="#day" role="tab"
-                                aria-controls="day" aria-selected="false">ค่าจ้างรายวัน</a>
+                                aria-controls="day" aria-selected="false">日薪</a>
                         </li>
                     </ul>
                     <br>

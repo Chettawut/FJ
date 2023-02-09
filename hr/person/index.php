@@ -10,7 +10,7 @@ include_once('../../conn.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ข้อมูลวัสดุ</title>
+    <title>个人信息</title>
 
     <?php 
     include_once('css.php'); 
@@ -39,10 +39,10 @@ include_once('../../conn.php');
             <section class="content">
                 <section class="content-header">
 
-                    <H1 id="menuName" style="margin-down:50px;"><i class="nav-icon fas fa fa-users"></i> จัดการข้อมูลส่วนบุคคล (Personal information management)</H1>
+                    <H1 style="margin-bottom:50px;"><i class="nav-icon fas fa fa-users"></i><span id="menuName"> 个人信息 (Personal Information)</span></H1>
 
                     <ol class="text-right">
-                        Person
+                    个人信息
                     </ol>
                 </section>
                 <section class="content panel-info" >

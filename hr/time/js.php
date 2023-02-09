@@ -194,7 +194,7 @@ function onclickEditEmployee(empcode) {
     $("#btnSubmit").hide();
     $("#btnEdit").show();
     $("#btnMenu").show();
-    $("#menuName").text('จัดการเวลาทำงาน');
+    $("#menuName").text(' 考勤系统 (Time attendance)');
 
     $.ajax({
         type: "POST",
